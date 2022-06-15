@@ -4,14 +4,14 @@ console.log(`Welcome to StarNews`);
 let newsAccordion = document.getElementById("newsAccordion");
 
 // initialise the news api parameters
-let source = "bbc-news";
-let apiKey = "d619d33aeec548728219e5847ccd2f26";
+// let source = "bbc-news";
+// let apiKey = "d619d33aeec548728219e5847ccd2f26";
 let json;
 // create an AJAX GET request
 const xhr = new XMLHttpRequest();
 xhr.open(
   "GET",
-  `http://newsapi.org/v2/top-headlines?sources=${source}&apiKey=${apiKey}`,
+  `http://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=d619d33aeec548728219e5847ccd2f26`,
   true
 );
 
